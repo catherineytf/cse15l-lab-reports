@@ -12,6 +12,7 @@
 ![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-30%20at%202.47.54%20PM.png)
 
 **Trying Some Commands**
+
 In the image below, I tried some commands.
 * ls: list the files in the directory
 * ls -a: list all visible and hidden files in the directory
