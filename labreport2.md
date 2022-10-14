@@ -61,6 +61,50 @@ The original code works to update the elements in `arr` and return `arr`. Every 
  ```
  **The symptom:**
  
+ ![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%201.14.23%20PM.png)
+ 
+ **The bug:**
+ 
+ Original code:
+ ```
+ static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(0,s);
+      }
+    }
+    return result;
+  }
+ ```
+ The original code adds every new element to the front of the list, instead of the end of the list.
+
+ Fixed code:
+  ```
+ static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(s);
+      }
+    }
+    return result;
+  }
+ ```
+ `result.add(s)` makes sure that every element is added to the end of the list. 
+ 
+ **The connection between the symptom and the bug**
+
+Because the original code adds elements to the front of the list, the order of elements in the actual result does not match with the order of elements in the expected result. 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
  
  
 
