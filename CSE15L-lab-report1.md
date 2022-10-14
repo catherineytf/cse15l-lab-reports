@@ -29,7 +29,7 @@ In the image below, I tried some commands.
 * Log into the remote computer
 * Use `javac` and `java` commands to run WhereAmI.java
 * Get a different result from running on the local computer
-![Image](https://github.com/catherineytf/cse15l-lab-reports/commit/5b41e4b1ab4d90d60a79b1d0191db2a1a4839235.png)
+![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-30%20at%201.05.04%20PM.png)
 
 **Setting an SSH Key**
 * Command: `ssh-keygen`
