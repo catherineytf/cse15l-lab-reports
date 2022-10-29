@@ -48,7 +48,7 @@ class SearchEngine {
 ```
 
 
-![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%204.20.26%20PM.png)
+![Image](lab2-1.png)
 `handleRequest(URI url)` is called. 
 The list is empty before the method call. After `handleRequest` is called, “anewstringtoaddd” is added to the list. 
 
