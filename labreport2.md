@@ -109,6 +109,14 @@ The original code works to update the elements in `arr` and return `arr`. Every 
 ## ListExamples.java
 **The failure-inducing input:**
 ```
+class LongString implements StringChecker{
+  public boolean checkString(String s){
+    if(s.length() > 5){
+      return true;
+    }
+    return false;
+  }
+}
 @Test
    public void testFilter(){
       StringChecker ls = new LongString();
