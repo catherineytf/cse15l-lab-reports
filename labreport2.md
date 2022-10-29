@@ -52,10 +52,10 @@ class SearchEngine {
 `handleRequest(URI url)` is called. 
 The list is empty before the method call. After `handleRequest` is called, “anewstringtoaddd” is added to the list. 
 
-![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%204.21.33%20PM.png)
+![Image](lab2-2.png)
 `handleRequest(URI url)` is called. 
 The list contains “anewstringtoadd” before the method call. After `handleRequest` is called, “pineapple” is added to the list. 
-![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%204.22.37%20PM.png)
+![Image](lab2-3.png)
 `handleRequest(URI url)` is called. 
 After adding some elements to list, list is now `[anewstringtoadd, pineapple, pineapple, apple, application]`. We search for strings that contain the substring “app”. The return value would be `[pineapple, pineapple, apple, application]`. 
 If the strings in the method change, or the substring changes, the result would change as well. 
@@ -76,7 +76,7 @@ If the strings in the method change, or the substring changes, the result would 
  ```
 **The symptom:**
 
-![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%2012.37.13%20PM.png)
+![Image](lab2-4.png)
 
 **The bug:**
 
@@ -135,7 +135,7 @@ class LongString implements StringChecker{
  ```
  **The symptom:**
  
- ![Image](https://github.com/catherineytf/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%201.14.23%20PM.png)
+ ![Image](lab2-5.png)
  
  **The bug:**
  
