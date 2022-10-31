@@ -92,6 +92,7 @@ technical/biomed/1476-4598-1-6.txt
 ```
 
 -E: automatically exit when reaching the end of file
+
 It is more convenient for us since we don't need to exit manually. 
 ***
 
@@ -102,6 +103,26 @@ wc -l grep-results-line.txt
 ```
 
 -F: force to open non-regular files.
+
 It helps us to see the contents of the files. 
 ***
+
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % less -N grep-results.txt
+1 technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+2 technical/government/About_LSC/Progress_report.txt
+3 technical/government/About_LSC/Strategic_report.txt
+4 technical/government/About_LSC/Comments_on_semiannual.txt
+5 technical/government/About_LSC/Special_report_to_congress.txt
+6 technical/government/About_LSC/CONFIG_STANDARDS.txt
+7 technical/government/About_LSC/commission_report.txt
+8 technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+9 technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+10 technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+...
+```
+-N: display the text files with line numbers.
+
+It gives us a better understanding of the file as well as helps us locate a specific line. 
+
 
