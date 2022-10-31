@@ -1,5 +1,5 @@
 # Lab Report 3
-## Find command line options 
+## find command line options 
 ```
 tongfeiyang@Catherines-MacBook-Pro docsearch % find technical/ -empty              
 technical//911report/empty.txt
@@ -32,4 +32,21 @@ technical//911report/chapter-11.txt
 
 It is helpful in looking for files with a name pattern. 
 ***
+
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % find technical/ -links 2
+technical//plos/pmed.0020039.txt
+technical//plos/pmed.0010071.txt
+technical//plos/journal.pbio.0030127.txt
+technical//plos/pmed.0010058.txt
+technical//plos/pmed.0010070.txt
+technical//plos/pmed.0010064.txt
+technical//plos/pmed.0020158.txt
+...
+```
+-links n: find files that have n links in them
+
+It is helfful when we try to search for links in the files. 
+***
+## grep command line options
 
