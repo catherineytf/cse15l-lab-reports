@@ -49,4 +49,25 @@ technical//plos/pmed.0020158.txt
 It is helfful when we try to search for links in the files. 
 ***
 ## grep command line options
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % grep technical/ --files-with-matches *.txt  
+biomed-character.txt
+find-results.txt
+grep-results-line.txt
+grep-results.txt
+plos-character.txt
+plos-wordcount.txt
+```
+--files-with-matches: the output will show the files whose names containing selected lines. 
+
+It can help look for files based on their names in an efficient way.
+***
+
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % grep "chapter-1.txt" grep-results.txt -n
+1382:technical/911report/chapter-1.txt
+```
+-n: It shows the line numbers of the searched files. 
+Having line numbers can help us find the files more easily.
+***
 
