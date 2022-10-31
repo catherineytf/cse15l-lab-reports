@@ -80,4 +80,28 @@ tongfeiyang@Catherines-MacBook-Pro docsearch % grep "chapter-1.txt" grep-results
 It helps us to keep track of the number of selected files. 
 ***
 
+## less command line options
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % less find-results.txt -E
+...
+technical/biomed/1471-2121-2-3.txt
+technical/biomed/1471-213X-1-11.txt
+technical/biomed/1472-684X-1-5.txt
+technical/biomed/1476-4598-1-6.txt
+(END) - Next: -E
+```
+
+-E: automatically exit when reaching the end of file
+It is more convenient for us since we don't need to exit manually. 
+***
+
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % less basepair.sh -F
+grep  "base pair" $1/* > grep-results-line.txt
+wc -l grep-results-line.txt
+```
+
+-F: force to open non-regular files.
+It helps us to see the contents of the files. 
+***
 
