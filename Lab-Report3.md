@@ -68,6 +68,16 @@ tongfeiyang@Catherines-MacBook-Pro docsearch % grep "chapter-1.txt" grep-results
 1382:technical/911report/chapter-1.txt
 ```
 -n: It shows the line numbers of the searched files. 
+
 Having line numbers can help us find the files more easily.
 ***
+
+```
+tongfeiyang@Catherines-MacBook-Pro docsearch % grep "chapter-1.txt" grep-results.txt -c
+1
+```
+-c: count the number of lines in the output. 
+It helps us to keep track of the number of selected files. 
+***
+
 
