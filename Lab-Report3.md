@@ -1,6 +1,5 @@
 # Lab Report 3
 ## find command line options 
-
 ```
 tongfeiyang@Catherines-MacBook-Pro docsearch % find technical/ -empty              
 technical//911report/empty.txt
